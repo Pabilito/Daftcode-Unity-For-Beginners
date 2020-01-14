@@ -47,9 +47,8 @@ MonoBehaviour:
   deadBody: {fileID: 3764626476855033434, guid: 313fe6e8e37b1fe4184b913ec302a34e,
     type: 3}
   player: {fileID: 7677821315176064139, guid: f81cb8863d0d219478cf82f6f433b17b, type: 3}
-  numberOfBodies: -1
+  numberOfBodies: -2
   cc: {fileID: 0}
-  lives: 3
   lives3: {fileID: 0}
   lives2: {fileID: 0}
   lives1: {fileID: 0}

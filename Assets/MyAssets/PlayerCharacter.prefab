@@ -180,8 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  variableJoystick: {fileID: 3881087803549984439, guid: ec536a7718376554185e4a856d5ae230,
-    type: 3}
+  variableJoystick: {fileID: 0}
   rb2D: {fileID: -8741810697666227201}
   jumpStrength: 7
   gameWon: 0
