@@ -76,7 +76,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'Die
+
+'
 --- !u!1 &83641539519050130
 GameObject:
   m_ObjectHideFlags: 0
@@ -87,11 +89,12 @@ GameObject:
   m_Component:
   - component: {fileID: 83641539519050133}
   - component: {fileID: 83641539519050134}
+  - component: {fileID: 819460128079936344}
   - component: {fileID: 83641539519050135}
   - component: {fileID: 83641539519050132}
   m_Layer: 5
   m_Name: DeathButton
-  m_TagString: Untagged
+  m_TagString: DeathButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,6 +127,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83641539519050130}
   m_CullTransparentMesh: 0
+--- !u!114 &819460128079936344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83641539519050130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70470032eb9d8499f8e26bc7d9d9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  script: {fileID: 0}
+  yourButton: {fileID: 83641539519050132}
+  cc: {fileID: 0}
 --- !u!114 &83641539519050135
 MonoBehaviour:
   m_ObjectHideFlags: 0
