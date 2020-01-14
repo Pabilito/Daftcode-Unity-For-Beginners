@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class youWinImage : MonoBehaviour
 {
     public Image img;
+    public Button nextLvl;
 
     void Start()
     {
@@ -15,6 +16,7 @@ public class youWinImage : MonoBehaviour
     public void Activate()
     {
         img.enabled = true;
+        nextLvl.gameObject.SetActive(true);
     }
 
 }
