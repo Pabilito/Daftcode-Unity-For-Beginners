@@ -4080,6 +4080,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 3095057724201056590, guid: 387b284fb2c6a944cbf3accca31f203e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -300
+      objectReference: {fileID: 0}
+    - target: {fileID: 68864951418468150, guid: 387b284fb2c6a944cbf3accca31f203e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 3095057725558504348, guid: 387b284fb2c6a944cbf3accca31f203e,
         type: 3}
       propertyPath: cc
