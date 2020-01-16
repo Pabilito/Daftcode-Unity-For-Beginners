@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class nextLevelHangler : MonoBehaviour
 {
     public Button buttonNext;
+    public string levelName;
+
     void Start()
     {
         buttonNext.GetComponent<Button>();
@@ -15,7 +18,6 @@ public class nextLevelHangler : MonoBehaviour
 
     void TaskOnClick()
     {
-        Debug.Log("Hello");
-        //change scene
+        SceneManager.LoadScene(levelName);
     }
 }

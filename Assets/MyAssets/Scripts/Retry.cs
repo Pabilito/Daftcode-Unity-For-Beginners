@@ -39,8 +39,8 @@ public class Retry : MonoBehaviour
 
     public void RemoveOne()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        player.transform.position = new Vector3(0, 0, 0);
+        //player = GameObject.FindGameObjectWithTag("Player");
+        //player.transform.position = new Vector3(0, 0, 0);
 
         if (numberOfBodies == 1)
         {
@@ -48,6 +48,7 @@ public class Retry : MonoBehaviour
             deadBody = GameObject.FindGameObjectWithTag("DeadBody");
             Transform t = deadBody.transform;
             t.position = new Vector3(-30, 0, 0);
+            numberOfBodies=-2;
         }
         else if (numberOfBodies > 1)
         {

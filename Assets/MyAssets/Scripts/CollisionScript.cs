@@ -12,6 +12,7 @@ public class CollisionScript : MonoBehaviour
     public Image lives3;
     public Image lives2;
     public Image lives1;
+    public deathsCounter dCnt;
 
     IEnumerator ExampleCoroutine(int i)
     {
@@ -50,7 +51,7 @@ public class CollisionScript : MonoBehaviour
             {
                 lives3.enabled = false;
             }
-
+            dCnt.deaths++;
         }
 
         StartCoroutine(ExampleCoroutine(2)); //Nie działa
