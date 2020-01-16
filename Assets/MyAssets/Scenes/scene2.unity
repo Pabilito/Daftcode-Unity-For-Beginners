@@ -385,6 +385,21 @@ PrefabInstance:
       propertyPath: cc
       value: 
       objectReference: {fileID: 1472426058}
+    - target: {fileID: 2247223994510010739, guid: 387b284fb2c6a944cbf3accca31f203e,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247223994510010739, guid: 387b284fb2c6a944cbf3accca31f203e,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247223994510010739, guid: 387b284fb2c6a944cbf3accca31f203e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3095057724201056578, guid: 387b284fb2c6a944cbf3accca31f203e,
         type: 3}
       propertyPath: levelName
