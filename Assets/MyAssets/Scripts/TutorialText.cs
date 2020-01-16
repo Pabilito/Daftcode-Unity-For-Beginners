@@ -16,6 +16,6 @@ public class TutorialText : MonoBehaviour
     void TaskOnClick()
     {
         cc.gameWon = false;
-        acknowledge.enabled = false;
+        acknowledge.gameObject.SetActive(false);
     }
 }
