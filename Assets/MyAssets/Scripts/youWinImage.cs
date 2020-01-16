@@ -7,6 +7,7 @@ public class youWinImage : MonoBehaviour
 {
     public Image img;
     public Button nextLvl;
+    public Button returnToMenu;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class youWinImage : MonoBehaviour
     {
         img.enabled = true;
         nextLvl.gameObject.SetActive(true);
+        returnToMenu.gameObject.SetActive(true);
     }
 
 }
